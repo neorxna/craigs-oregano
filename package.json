@@ -2,10 +2,12 @@
   "name": "craigs-oregano",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://milquetoast.space/craigs-oregano/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
+    "color2": "^1.0.8",
     "poisson-disk-sampling": "^1.0.6",
     "poisson-process": "^1.0.0",
     "react": "^16.12.0",

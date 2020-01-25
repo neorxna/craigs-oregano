@@ -1,18 +1,19 @@
 body {
   background-color: rgb(212, 162, 105);
+  overflow-x: hidden;
+  overflow-y:hidden;
 }
+
 .oregano {
   position: absolute;
-  /*min-width: 25px;
-  min-height: 25px;
-  background-color: #4faa6c;*/
+
   min-width: 25px;
   min-height: 25px;
-  /*opacity: 0.5;*/
   background-color: #167a40;
   min-width: 15px;
   min-height: 15px;
   visibility: hidden;
+  overflow: visible;
 }
 
 a {
@@ -31,20 +32,11 @@ a {
 
 .oreganos {
   position: relative;
-  margin: 4em;
-  padding: 0px;
-  width: 820px;
-  height: 620px;
   background-color: rgb(212, 162, 105);
 }
 
 .info { margin: 0px 4em;}
 
-.oregano--lil {
-  min-width: 10px;
-  min-height: 10px;
-  opacity: 0.5;
-}
 .oregano--heirloom {
   background-color: #0e4d28;
 }
